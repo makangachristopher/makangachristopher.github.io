@@ -8,6 +8,7 @@
   <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/contactus.css" media="screen" rel="stylesheet" type="text/css" />
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
@@ -25,25 +26,90 @@
 <body>
   <div class="menu-container"></div>
   <div class="content-container">
-    <div class="content">
-      <div class="content-table flex-column">
+    <!-------------------------------------------------------------------------------------------->
+    <!--Start Header-->
+    <div class="banner" style="background: url('img/olympyia.jpg') no-repeat center; background-size: cover; height: 300px;"></div>
+    <div class="banner">
+      <div class="banner-table flex-column">
         <div class="flex-row">
           <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">The HostelHub</h2>
             <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi.
-            </p>
-            <h2>Heading 1</h2>
-            <hr>
-            <p class="text">
-              Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet.
+            "Discover a new era of hostel booking with Hostel Hub! Our innovative app connects students, brokers, and hostel owners, 
+            streamlining the booking process for seamless and memorable travel experiences. With user-centric features, real-time availability 
+            updates, and secure transactions, Hostel Hub transforms the way you find, book, and manage accommodations. Join us and unlock a world 
+            of convenience and transparency in hostel booking."
             </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="footer-container"></div>
-</body>
+    <h1 style="text-align: center;">Contact Us</h1>
+    <div class="content">
+      <div class="content-table flex-column">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Intro-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 id="problem-statement"><b>Contact Information:</b></h2>
+            <hr>
+            <p class="text">
+              Hostel Hub: <br>
+              Address: 123 Main Street, Kampala, Uganda <br>
+              Phone: +256 123 4567 (General Inquiries) <br>
+              Phone: +256 987 6543 (Reservations) <br>
+              Email: <a href="mailto:info@hostelhub.com">info@hostelhub.com</a>
+            </p>
+          </div>
+        </div>
 
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 id="problem-statement"><b>Business Hours:</b></h2>
+            <hr>
+            <p class="text">
+              Hostel Hub: <br>
+              Monday - Friday: 9:00 AM - 6:00 PM <br>
+              Saturday: 10:00 AM - 4:00 PM <br>
+              Sunday: Closed <br>
+              Email: <a href="mailto:info@hostelhub.com">info@hostelhub.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 id="problem-statement"><b>Contact Form:</b></h2>
+            <hr>
+          </div>
+        </div>
+        <form action="submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+  
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required><br>
+  
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea><br>
+  
+          <button type="submit">Submit</button>
+      </form>
+  
+   
+
+<h2>Location and Map</h2>
+<div style="width: 100%; height: 400px;">
+    <!-- Paste the Google Maps embed code here -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.989527200112!2d32.549535227748066!3d0.3416668519177945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb22802e8803%3A0x9888bff73bae7192!2sMakerere%20Kikoni%2C%20Kampala!5e0!3m2!1sen!2sug!4v1692382184185!5m2!1sen!2sug" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+   <!-- Other sections like FAQs, customer support details, etc. -->
+
+    <footer>
+        <p>&copy; 2023 Hostel Hub. All rights reserved.</p>
+    </footer>
+</body>
 </html>
