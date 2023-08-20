@@ -2,7 +2,7 @@
 
 Hostel Hub is a modern and user-friendly hostel booking application that simplifies the process of finding and booking hostels for travelers. Whether you're a backpacker, a family on vacation, or a solo adventurer, Hostel Hub offers a seamless experience for discovering and reserving your ideal accommodations.
 
-![Hostel Hub Screenshot](screenshot.png)
+![(img/hostel_hub22.png)](screenshot.png)
 
 ## Features
 
